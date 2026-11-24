@@ -26,13 +26,13 @@ module "aware_tagging" {
 #### Requirements
 
 | Name | Version |
-|------|---------|
+| ---- | ------- |
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.15.5 |
 
 #### Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
+| ---- | ----------- | ---- | ------- | :------: |
 | <a name="input_budget"></a> [budget](#input\_budget) | Code name of the budget. | `string` | n/a | yes |
 | <a name="input_project"></a> [project](#input\_project) | Code name of the subproject. Must have 3 digits. | `string` | n/a | yes |
 | <a name="input_rgpd_confidential"></a> [rgpd\_confidential](#input\_rgpd\_confidential) | Indicates that project contains confidential data | `bool` | n/a | yes |
@@ -46,6 +46,6 @@ module "aware_tagging" {
 #### Outputs
 
 | Name | Description |
-|------|-------------|
+| ---- | ----------- |
 | <a name="output_tags"></a> [tags](#output\_tags) | Aware standard tags. |
 <!-- END_TF_DOCS -->
